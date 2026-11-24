@@ -63,3 +63,5 @@ print(data[0]["url"])
 #         "headers": headers
 #     }
 #     requests.request(**login_data)
+
+print(get_data())
