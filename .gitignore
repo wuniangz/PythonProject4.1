@@ -1,0 +1,18 @@
+# 忽略环境变量文件（通常把密钥放在这里）
+.env
+.env.local
+
+# 忽略包含密钥的特定 python 文件（如果你写死在代码里了）
+config.py
+secret_key.py
+密钥文件.txt
+
+# 忽略虚拟环境（不需要提交）
+.venv/
+
+# 忽略 Python 缓存
+__pycache__/
+*.py[cod]
+.pytest_cache/
+数据来源.xlsx
+.idea/
